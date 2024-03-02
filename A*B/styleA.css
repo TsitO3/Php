@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.green{
+    background-color: rgb(79, 207, 79);
+}
+
+.red{
+    background-color: rgb(34, 52, 216);
+}
+
+.display{
+    margin-top: 22vh;
+    transform: translateY(-50%);
+    margin-left: 50vw;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    width: 60vw;
+}
+
+.headT{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    height: 7vh;
+}
+
+.simple{
+    height: 5vh;
+}
+
+.outils{
+    display: flex;
+    height: 6vh;
+    flex-direction: row;
+    column-gap: 2vw;
+    padding-top: 1.5vh;
+}
+
+td{ 
+    border: 2px solid black;
+    padding-left: 5vw;
+}
+
+ 
+

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 3%;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    margin-left: 50vh;
+    transform: translateY(-50%);
+    row-gap: 3vh;
+    border-radius: 5px;
+}
+
+.number{
+    width: 20vw;
+    height: 5vh;
+    font-size: medium;
+}
+
+.submit{
+    width: 15vw;
+    height: 7vh;
+    border: none;
+}
+
+.submit:hover{
+    color: rgb(85, 160, 160);
+    background-color: black;
+}
